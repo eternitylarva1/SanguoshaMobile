@@ -1,0 +1,11 @@
+{
+  "modId": "AndroidTestMod",
+  "modName": "Android Test Mod",
+  "modVersion": "1.0",
+  "descriptions": {
+    "zhs": ["安卓爬塔测试mod"],
+    "eng": ["STS android test mod."]
+  },
+  "authorList": ["Temple9"],
+  "dependencies": []
+}
