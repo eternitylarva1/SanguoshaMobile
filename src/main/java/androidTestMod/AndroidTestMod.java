@@ -1,6 +1,7 @@
 package androidTestMod;
 
 import androidTestMod.cards.yellow.TestStrike;
+import androidTestMod.character.Mycharacter;
 import androidTestMod.enums.CardColorEnum;
 import androidTestMod.enums.LibraryTypeEnum;
 import androidTestMod.helpers.Keyword;
@@ -11,8 +12,10 @@ import com.megacrit.cardcrawl.android.mods.AssetLoader;
 import com.megacrit.cardcrawl.android.mods.BaseMod;
 import com.megacrit.cardcrawl.android.mods.helpers.CardColorBundle;
 import com.megacrit.cardcrawl.android.mods.interfaces.*;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.localization.CardStrings;
+import com.megacrit.cardcrawl.localization.CharacterStrings;
 import com.megacrit.cardcrawl.localization.RelicStrings;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
 
@@ -20,10 +23,12 @@ public class AndroidTestMod implements EditCardsSubscriber,
                                        PostInitializeSubscriber,
                                        EditStringsSubscriber,
                                        EditRelicsSubscriber,
-                                       EditKeywordsSubscriber {
+                                       EditKeywordsSubscriber,EditCharactersSubscriber {
     public static final String MOD_ID = "AndroidTestMod";
-    private static final Color YELLOW_COLOR = new Color(0.98F, 0.95F, 0.05F, 1.0F);
-
+    public static final Color YELLOW_COLOR = new Color(0.98F, 0.95F, 0.05F, 1.0F);
+    private static final String MY_CHARACTER_BUTTON = getResourcePath("char/Character_Button.png");
+    // 人物选择界面的立绘
+    private static final String MY_CHARACTER_PORTRAIT = getResourcePath("char/Character_Portrait.png");
     public static void initialize() {
         new AndroidTestMod();
     }
@@ -86,6 +91,8 @@ public class AndroidTestMod implements EditCardsSubscriber,
         }
         BaseMod.loadCustomStringsFile(MOD_ID, CardStrings.class, "localization/" + language + "/AndroidTest-CardStrings.json");
         BaseMod.loadCustomStringsFile(MOD_ID, RelicStrings.class, "localization/" + language + "/AndroidTest-RelicStrings.json");
+        BaseMod.loadCustomStringsFile(MOD_ID, CharacterStrings.class, "localization/" + language + "/characters.json");
+
     }
 
     @Override
@@ -111,5 +118,11 @@ public class AndroidTestMod implements EditCardsSubscriber,
                 BaseMod.addKeyword(keyword.PROPER_NAME, keyword.NAMES, keyword.DESCRIPTION);
             }
         }
+    }
+
+    @Override
+    public void receiveEditCharacters() {
+        BaseMod.addCharacter(new Mycharacter(CardCrawlGame.playerName), MY_CHARACTER_BUTTON, MY_CHARACTER_PORTRAIT, CardColorEnum.Cangjie);
+
     }
 }
