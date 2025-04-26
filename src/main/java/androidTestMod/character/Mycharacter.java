@@ -7,6 +7,7 @@ import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.android.mods.AssetLoader;
 import com.megacrit.cardcrawl.android.mods.abstracts.CustomPlayer;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -15,9 +16,7 @@ import com.megacrit.cardcrawl.core.EnergyManager;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.cutscenes.CutscenePanel;
 import com.megacrit.cardcrawl.events.city.Vampires;
-import com.megacrit.cardcrawl.helpers.CardLibrary;
-import com.megacrit.cardcrawl.helpers.FontHelper;
-import com.megacrit.cardcrawl.helpers.ScreenShake;
+import com.megacrit.cardcrawl.helpers.*;
 import com.megacrit.cardcrawl.localization.CharacterStrings;
 import com.megacrit.cardcrawl.monsters.city.Snecko;
 import com.megacrit.cardcrawl.relics.SneckoEye;
@@ -56,7 +55,41 @@ public class Mycharacter extends CustomPlayer {
     private static final float[] LAYER_SPEED = new float[]{-40.0F, -32.0F, 20.0F, -20.0F, 0.0F, -10.0F, -8.0F, 5.0F, -5.0F, 0.0F};
     // 人物的本地化文本，如卡牌的本地化文本一样，如何书写见下
     private static final CharacterStrings characterStrings = CardCrawlGame.languagePack.getCharacterString(makeId("Mycharacter"));
+    protected void initializeClass(String imgUrl, String shoulder2ImgUrl, String shouldImgUrl, String corpseImgUrl, CharSelectInfo info, float hb_x, float hb_y, float hb_w, float hb_h, EnergyManager energy) {
+        if (imgUrl != null) {
+            this.img = AssetLoader.getTexture(AndroidTestMod.MOD_ID,imgUrl);
+        }
 
+        if (this.img != null) {
+            this.atlas = null;
+        }
+
+        this.shoulderImg = AssetLoader.getTexture(AndroidTestMod.MOD_ID,shouldImgUrl);
+        this.shoulder2Img = AssetLoader.getTexture(AndroidTestMod.MOD_ID,shoulder2ImgUrl);
+        this.corpseImg = AssetLoader.getTexture(AndroidTestMod.MOD_ID,corpseImgUrl);
+
+
+        if (Settings.isMobile) {
+            hb_w *= 1.17F;
+        }
+
+        this.maxHealth = info.maxHp;
+        this.startingMaxHP = this.maxHealth;
+        this.currentHealth = info.currentHp;
+        this.masterMaxOrbs = info.maxOrbs;
+        this.energy = energy;
+        this.masterHandSize = info.cardDraw;
+        this.gameHandSize = this.masterHandSize;
+        this.gold = info.gold;
+        this.displayGold = this.gold;
+        this.hb_h = hb_h * Settings.xScale;
+        this.hb_w = hb_w * Settings.scale;
+        this.hb_x = hb_x * Settings.scale;
+        this.hb_y = hb_y * Settings.scale;
+        this.hb = new Hitbox(this.hb_w, this.hb_h);
+        this.healthHb = new Hitbox(this.hb.width, 72.0F * Settings.scale);
+        this.refreshHitboxLocation();
+    }
     public Mycharacter(String name) {
         super(AndroidTestMod.MOD_ID,name, CardColorEnum.Cangjie,null,getResourcePath("orb/vfx.png"), null, null, null);
 
