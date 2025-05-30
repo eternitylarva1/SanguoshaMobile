@@ -1,0 +1,524 @@
+{
+  "BaoLi": {
+    "NAME": "徐荣·暴戾",
+    "DESCRIPTION": "给予目标 暴戾 标记直到本回合结束。 NL 拥有 暴戾 标记的单位受到的攻击伤害增加50%，且死亡时获得 [E] 并获得一张此牌的复制。 NL 消耗 。"
+  },
+  "BaZhen": {
+    "NAME": "卧龙·八阵",
+    "DESCRIPTION": "回合开始时，增加一张 转化 的 *闪 到你的手牌。"
+  },
+  "BingLiangCunDuan": {
+    "NAME": "兵粮寸断",
+    "DESCRIPTION": "锦囊 。 NL 3/4概率给予目标 !M! 层 虚弱 和 易伤 。"
+  },
+  "BuQu": {
+    "NAME": "周泰·不屈",
+    "DESCRIPTION": "获得 !M! 层 不屈 。 NL 消耗 。"
+  },
+  "ChengLue": {
+    "NAME": "许攸·成略",
+    "DESCRIPTION": "转换技 。 NL *阳 ：丢弃2张牌，获得 [E] [E] 。 NL *阴 ：抽2张牌。"
+  },
+  "ChuiFeng": {
+    "NAME": "文鸯·椎锋",
+    "DESCRIPTION": "失去 !M! 点生命。 NL 增加一张 转化 的 *决斗 到你的手牌。 NL 从 却敌 中选择一项。"
+  },
+  "CuiKe": {
+    "NAME": "神陆逊·摧克",
+    "DESCRIPTION": "军略 标记为： NL 奇数：造成 !D! 点伤害。 NL 偶数：抽2张牌并给予目标 连环 状态。"
+  },
+  "DaWu": {
+    "NAME": "神诸葛亮·大雾",
+    "DESCRIPTION": "获得1层 无实体 。 NL 消耗 。 NL 虚无 。",
+    "UPGRADE_DESCRIPTION": "获得1层 无实体 。 NL 消耗 。"
+  },
+  "DiLu": {
+    "NAME": "的卢",
+    "DESCRIPTION": "本回合内使用的下一张 *杀 造成伤害时，获得等同于伤害值的 格挡 。"
+  },
+  "DuWu": {
+    "NAME": "诸葛恪·黩武",
+    "DESCRIPTION": "丢弃 !M! 张牌。 NL 造成 !D! 点伤害。 NL 本回合内每打出一次，需丢弃的数量+1。 NL 可多次使用 。"
+  },
+  "FenYin": {
+    "NAME": "留赞·奋音",
+    "DESCRIPTION": "当你于回合内使用的牌与上一张牌的 *类别 不同时，抽一张牌。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 当你于回合内使用的牌与上一张牌的 *类别 不同时，抽一张牌。"
+  },
+  "GongAo": {
+    "NAME": "诸葛诞·功獒",
+    "DESCRIPTION": "场上每有一个单位，增加1点最大生命。 NL 使用后，如果生命上限大于100，在每回合结束时失去1点生命。 NL 消耗 。 虚无 。",
+    "UPGRADE_DESCRIPTION": "场上每有一个单位，增加1点最大生命。 NL 使用后，如果生命上限大于100，在每回合结束时失去1点生命。 NL 消耗 。"
+  },
+  "GuiCai": {
+    "NAME": "司马懿·鬼才",
+    "DESCRIPTION": "*闪电 、 *乐不思蜀 和 *兵粮寸断 必定生效。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL *闪电 、 *乐不思蜀 和 *兵粮寸断 必定生效。"
+  },
+  "QiangXi": {
+    "NAME": "典韦·强袭",
+    "DESCRIPTION": "失去 !M! 点生命。 NL 造成 !D! 点伤害。"
+  },
+  "GuanXing": {
+    "NAME": "诸葛亮·观星",
+    "DESCRIPTION": "在你的回合开始时， 预见 X（X为场上存活单位数量）。"
+  },
+  "GuoHeChaiQiao": {
+    "NAME": "过河拆桥",
+    "DESCRIPTION": "锦囊 。 NL 移除目标身上的一种随机正面效果。 NL 对boss敌人无效。 NL 消耗 。"
+  },
+  "GuoSe": {
+    "NAME": "大乔·国色",
+    "DESCRIPTION": "消耗 一张 *能力 牌。 NL 在手牌中加入一张 转化 的 *乐不思蜀 。"
+  },
+  "GuZheng": {
+    "NAME": "张昭张纮·固政",
+    "DESCRIPTION": "如果你在回合内丢弃的手牌数超过1张，每额外丢弃1张牌，就在回合结束时获得 !M! 点 格挡 。"
+  },
+  "HanYong": {
+    "NAME": "兀突骨·悍勇",
+    "DESCRIPTION": "*南蛮入侵 和 *万箭齐发 造成的伤害翻倍。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL *南蛮入侵 和 *万箭齐发 造成的伤害翻倍。"
+  },
+  "HuaiJu": {
+    "NAME": "陆绩·怀橘",
+    "DESCRIPTION": "获得 !M! 个 *橘 标记。当你失去生命时，移去一个 *橘 并防止此次生命损伤。回合开始时，若你有 *橘 ，额外获得 [E] 。 NL 消耗 。"
+  },
+  "HuiWan": {
+    "NAME": "会玩的孙权·制衡",
+    "DESCRIPTION": "丢弃任意数量的牌，然后从抽牌堆中选择等量的牌加入你的手牌。 NL 消耗 。"
+  },
+  "HuoGong": {
+    "NAME": "火攻",
+    "DESCRIPTION": "锦囊 。 NL 造成 !D! 点 火焰 伤害。 NL 消耗 一张牌。"
+  },
+  "HuoJi": {
+    "NAME": "卧龙·火计",
+    "DESCRIPTION": "丢弃至多3张手牌，在手牌中加入等量 转化 的 *火攻 。",
+    "UPGRADE_DESCRIPTION": "丢弃至多3张手牌，在手牌中加入等量 转化 的 *火攻+ 。"
+  },
+  "HuoSha": {
+    "NAME": "“火”杀",
+    "DESCRIPTION": "造成 !D! 点 火焰 伤害。 NL 只有在有使用 次数 时才能打出。",
+    "UPGRADE_DESCRIPTION": "我在本回合不能再使用杀。"
+  },
+  "JiangChi": {
+    "NAME": "曹彰·将驰",
+    "DESCRIPTION": "转换技 。 NL *阳 ：抽 !M! 张牌，且在本回合内不能再使用 *杀 。 NL *阴 ：丢弃1张牌，且本回合内可使用 *杀 的次数+2。"
+  },
+  "JianXiong": {
+    "NAME": "曹操·奸雄",
+    "DESCRIPTION": "每次受到未被格挡的攻击伤害时，获得 !M! 点 力量 。"
+  },
+  "JianYing": {
+    "NAME": "沮授·渐营",
+    "DESCRIPTION": "当你于回合内使用的牌与上一张牌的 *类别 相同时，抽一张牌。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 当你于回合内使用的牌与上一张牌的 *类别 相同时，抽一张牌。"
+  },
+  "JiaoZi": {
+    "NAME": "麴义·骄恣",
+    "DESCRIPTION": "如果你的手牌数大于5张，进入 愤怒 。 NL 否则，退出当前姿态。",
+    "UPGRADE_DESCRIPTION": "进入 愤怒 。 NL 此回合结束时，如果手牌数不超过3张，退出当前姿态。"
+  },
+  "JieMing": {
+    "NAME": "荀彧·节命",
+    "DESCRIPTION": "当你受到伤害时，获得 !M! 点 格挡 。"
+  },
+  "JieYing": {
+    "NAME": "神甘宁·劫营",
+    "DESCRIPTION": "给予目标 !M! 点 力量 。下个回合开始时，你获得其3点力量，并额外抽1张牌。"
+  },
+  "JieYingZi": {
+    "NAME": "界周瑜·英姿",
+    "DESCRIPTION": "回合开始时，额外抽一张牌。计算手牌上限时改为使用生命上限而不是当前生命值。"
+  },
+  "JieZhiHeng": {
+    "NAME": "界孙权·制衡",
+    "DESCRIPTION": "丢弃所有手牌，抽等同于丢弃牌数量+1的牌。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "丢弃所有手牌，抽等同于丢弃牌数量+1的牌。"
+  },
+  "JiLi": {
+    "NAME": "沙摩柯·蒺藜",
+    "DESCRIPTION": "当你于同一回合内使用第X张牌后，如果此牌的耗能为X，则不消耗能量。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 当你于同一回合内使用第X张牌后，如果此牌的耗能为X，则不消耗能量。"
+  },
+  "Jiu": {
+    "NAME": "酒",
+    "DESCRIPTION": "在这个回合内，你使用的下一张 *杀 伤害增加 !M! 点。"
+  },
+  "JiZhi": {
+    "NAME": "黄月英·集智",
+    "DESCRIPTION": "每使用一张 锦囊 牌，抽一张牌。"
+  },
+  "JueDou": {
+    "NAME": "决斗",
+    "DESCRIPTION": "锦囊 。 NL 造成 !D! 点伤害。 NL 丢弃手牌中所有的 *杀 ，每丢弃一张就额外造成一次伤害。"
+  },
+  "JueJin": {
+    "NAME": "曹髦·决进",
+    "DESCRIPTION": "给予自身和所有敌人 向死存魏 效果。 NL 获得 !M! 点 格挡 。 NL 战斗结束时，回复等同于你 格挡 的生命。"
+  },
+  "JueYing": {
+    "NAME": "绝影",
+    "DESCRIPTION": "本回合内使用的下 !M! 张 *杀 造成伤害时，获得等同于伤害值的 格挡 。"
+  },
+  "JuGu": {
+    "NAME": "糜竺·巨贾",
+    "DESCRIPTION": "在本场战斗中，手牌上限增加 !M! 。 NL 抽 !M! 张牌。"
+  },
+  "JunLue": {
+    "NAME": "神陆逊·军略",
+    "DESCRIPTION": "当你造成或受到攻击伤害时，获得1个 军略 标记。 NL 增加一张 *摧克 和 *绽火 到你的手牌。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "当你造成或受到攻击伤害时，获得1个 军略 标记。 NL 增加一张 *摧克 和 *绽火 到你的手牌。 NL 消耗 。 固有 。"
+  },
+  "JuShou": {
+    "NAME": "曹仁·据守",
+    "DESCRIPTION": "获得 !B! 点 格挡 和 *壁垒 。 NL 你在下个回合不能使用牌。"
+  },
+  "JuXiang": {
+    "NAME": "祝融·巨象",
+    "DESCRIPTION": "当你于回合内使用的 *南蛮入侵 进入弃牌堆时，将它返回你的手牌。"
+  },
+  "KangKai": {
+    "NAME": "曹昂·慷忾",
+    "DESCRIPTION": "每当你被攻击时，抽1张牌。"
+  },
+  "KeJi": {
+    "NAME": "吕蒙·克己",
+    "DESCRIPTION": "始终跳过你的弃牌阶段。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 始终跳过你的弃牌阶段。"
+  },
+  "KongCheng": {
+    "NAME": "诸葛亮·空城",
+    "DESCRIPTION": "当你没有手牌时，防止你受到的任何攻击伤害。"
+  },
+  "KuangCai": {
+    "NAME": "祢衡·狂才",
+    "DESCRIPTION": "本回合内，每使用一张牌抽一张牌，且使用 *杀 无 次数 限制。 NL 使用5张牌后，结束当前回合。"
+  },
+  "KuangFeng": {
+    "NAME": "神诸葛亮·狂风",
+    "DESCRIPTION": "在 !M! 个回合内，目标受到的 火焰 伤害翻倍。"
+  },
+  "KuangGu": {
+    "NAME": "魏延·狂骨",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 未被格挡的伤害将回复你的生命。 NL 消耗 。"
+  },
+  "KunFen": {
+    "NAME": "SP姜维·困奋",
+    "DESCRIPTION": "不能被打出 。 NL 失去 !M! 点生命，获得 !B! 点格挡并抽2张牌。 NL 回合结束时如果留在手中，自动生效。",
+    "UPGRADE_DESCRIPTION": "失去 !M! 点生命，获得 !B! 点格挡并抽2张牌。 NL 回合结束时如果留在手中，自动生效。"
+  },
+  "KuRou": {
+    "NAME": "黄盖·苦肉",
+    "DESCRIPTION": "失去2点生命。 NL 抽 !M! 张牌。"
+  },
+  "LangXi": {
+    "NAME": "李傕·狼袭",
+    "DESCRIPTION": "对目标随机造成 !D! 点伤害0~2次。",
+    "UPGRADE_DESCRIPTION": "对目标随机造成 !D! 点伤害1~3次。"
+  },
+  "LeiJi": {
+    "NAME": "张角·雷击",
+    "DESCRIPTION": "每有一张 *闪 生效，对随机敌人造成 !M! 点 雷电 伤害。"
+  },
+  "LeBuSiShu": {
+    "NAME": "乐不思蜀",
+    "DESCRIPTION": "锦囊 。 NL 3/4概率使目标在本回合内失去99点 力量 。 NL 消耗 。"
+  },
+  "LeBuSiShu+": {
+    "NAME": "乐不思蜀",
+    "DESCRIPTION": "锦囊 。 NL 3/4概率使目标敌人眩晕一回合。 NL 消耗 。"
+  },
+  "LeiSha": {
+    "NAME": "“雷”杀",
+    "DESCRIPTION": "造成 !D! 点 雷电 伤害。 NL 只有在有使用 次数 时才能打出。",
+    "UPGRADE_DESCRIPTION": "我在本回合不能再使用杀。"
+  },
+  "LiangZhu": {
+    "NAME": "SP孙尚香·良助",
+    "DESCRIPTION": "每当你回复生命时，抽一张牌并获得 [E] 。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 每当你回复生命时，抽一张牌并获得 [E] 。"
+  },
+  "LianPo": {
+    "NAME": "神司马懿·连破",
+    "DESCRIPTION": "如果在回合内杀死了至少一名敌人，在回合结束后执行一个额外的回合。"
+  },
+  "LianYing": {
+    "NAME": "陆逊·连营",
+    "DESCRIPTION": "当你使用一张牌后，如果你没有手牌，抽一张牌并获得 [E] 。"
+  },
+  "LieGong": {
+    "NAME": "谋黄忠·烈弓",
+    "DESCRIPTION": "当你使用未记录过 *类别 的牌时，记录其 *类别 并叠加 !M! 层 *印记 。 NL 使用 *杀 时，消耗所有 *印记 额外造成等量伤害，然后重新记录类别。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 当你使用未记录过 *类别 的牌时，记录其 *类别 并叠加 !M! 层 *印记 。 NL 使用 *杀 时，消耗所有 *印记 额外造成等量伤害，然后重新记录类别。"
+  },
+  "LiMu": {
+    "NAME": "刘焉·立牧",
+    "DESCRIPTION": "回复 !M! 点生命。 NL 你在本回合内使用 *杀 无次数限制。 NL 在下个回合不能使用牌。 NL 消耗 。"
+  },
+  "LongDan": {
+    "NAME": "赵云·龙胆",
+    "DESCRIPTION": "丢弃任意数量的 *杀 和 *闪 。 NL 在手牌中加入等量 转化 的 *闪 和 *杀 。",
+    "UPGRADE_DESCRIPTION": "丢弃任意数量的 *杀 和 *闪 。 NL 在手牌中加入等量 转化 的 *闪+ 和 *杀+ 。"
+  },
+  "LuanJi": {
+    "NAME": "袁绍·乱击",
+    "DESCRIPTION": "丢弃任意数量的牌。每丢弃2张，在手牌中加入一张 转化 的 *万箭齐发 。",
+    "UPGRADE_DESCRIPTION": "丢弃任意数量的牌。每丢弃2张，在手牌中加入一张 转化 的 *万箭齐发+ 。"
+  },
+
+  "LuoYi": {
+    "NAME": "许褚·裸衣",
+    "DESCRIPTION": "下回合少抽一张牌，并获得 !M! 点临时 力量 。"
+  },
+  "MieJi": {
+    "NAME": "李儒·灭计",
+    "DESCRIPTION": "将一张 锦囊 牌置于抽牌堆顶，并对目标造成 !D! 点伤害2次。"
+  },
+  "MiJi": {
+    "NAME": "王异·秘计",
+    "DESCRIPTION": "获得 !B! 点 格挡 !M! 次。 NL 每已损失20点生命，就额外获得一次 格挡 。",
+    "UPGRADE_DESCRIPTION": "获得等同于你已损失生命一半的 格挡 。",
+    "EXTENDED_DESCRIPTION": [" NL (获得 !B! 点 格挡 。）"]
+  },
+  "MingJian": {
+    "NAME": "曹叡·明鉴",
+    "DESCRIPTION": "丢弃所有手牌。 NL 下回合抽等量的牌，获得 [E] [E] ，并可以额外使用一张 *杀 。",
+    "UPGRADE_DESCRIPTION": "丢弃所有手牌。 NL 下回合抽等量的牌，获得 [E] [E] [E] ，并可以额外使用一张 *杀 。"
+  },
+  "MoShi": {
+    "NAME": "SP蔡文姬·默识",
+    "DESCRIPTION": "记录你本回合内接下来使用的 !M! 张牌。 NL 回合结束时，获得这些牌的复制。 NL 消耗 。"
+  },
+  "MuMu": {
+    "NAME": "孙鲁育·穆穆",
+    "DESCRIPTION": "给予 !M! 层 虚弱 。 NL 获得 !B! 点 格挡 。 NL 你在本回合内不能再使用 *杀 。"
+  },
+  "NanManRuQin": {
+    "NAME": "南蛮入侵",
+    "DESCRIPTION": "锦囊 。 NL 只有当手牌中有 *杀 时才能打出。 NL 丢弃最左侧的 *杀 ，并对所有敌人造成 !D! 点伤害。",
+    "UPGRADE_DESCRIPTION": "锦囊 。 NL 只有当手牌中有 *杀 时才能打出。 NL 对所有敌人造成 !D! 点伤害。"
+  },
+  "PaiYi": {
+    "NAME": "钟会·排异",
+    "DESCRIPTION": "移除一个 权 标记，抽2张牌，并获得 [E] 。",
+    "UPGRADE_DESCRIPTION": "移除一个 权 标记，抽2张牌，并获得 [E] [E] 。"
+  },
+  "PaoXiao": {
+    "NAME": "张飞·咆哮",
+    "DESCRIPTION": "你在回合内使用杀无 次数 限制。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 你在回合内使用杀无 次数 限制。"
+  },
+  "PoJun": {
+    "NAME": "界徐盛·破军",
+    "DESCRIPTION": "当你使用 *杀 指定目标时，目标在本回合内失去 !M! 点 力量 。 NL 你使用 *杀 对 力量 不大于你的目标造成双倍伤害。"
+  },
+  "QiangZhi": {
+    "NAME": "张松·强识",
+    "DESCRIPTION": "选择一张牌。 NL 本回合内，当你打出与其 *类别 相同的牌时，获得 !M! 点 格挡 。"
+  },
+  "QiaoMeng": {
+    "NAME": "公孙瓒·趫猛",
+    "DESCRIPTION": "本回合内使用的下一张 *杀 造成伤害时，获得等同于伤害值的 格挡 。"
+  },
+  "QiCai": {
+    "NAME": "黄月英·奇才",
+    "DESCRIPTION": "使用 锦囊 牌时，如果本回合未使用过与其同名的 锦囊 牌，获得 !M! 点 格挡 。"
+  },
+  "QiMou": {
+    "NAME": "魏延·奇谋",
+    "DESCRIPTION": "失去X点生命。 NL 本回合可使用 *杀 的次数+X。 NL 获得 !M! X点 活力 。 NL 消耗 。"
+  },
+  "QingGuo": {
+    "NAME": "甄姬·倾国",
+    "DESCRIPTION": "丢弃任意数量的手牌。 NL 在手牌中加入等量 转化 的 *闪 。",
+    "UPGRADE_DESCRIPTION": "丢弃任意数量的手牌。 NL 在手牌中加入等量 转化 的 *闪+ 。"
+  },
+  "QinYin": {
+    "NAME": "神周瑜·琴音",
+    "DESCRIPTION": "丢弃2张牌。 NL 失去 !M! 点生命。 NL 对所有敌人造成 !D! 点伤害。"
+  },
+  "QuanJi": {
+    "NAME": "钟会·权计",
+    "DESCRIPTION": "当你受到攻击伤害后，获得一个 权 标记。 NL 增加一张 *排异 到你的手牌。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 当你受到攻击伤害后，获得一个 权 标记。 NL 增加一张 *排异 到你的手牌。 NL 消耗 。"
+  },
+  "QueDi1": {
+    "NAME": "文鸯·却敌",
+    "DESCRIPTION": "抽3张牌。"
+  },
+  "QueDi2": {
+    "NAME": "文鸯·却敌",
+    "DESCRIPTION": "丢弃一张 基本 牌，你在本回合使用的下一张 *杀 或 *决斗 的伤害提高 !M! 点。"
+  },
+  "QueDi3": {
+    "NAME": "文鸯·却敌",
+    "DESCRIPTION": "失去1点最大生命。 NL 依次执行前两项。"
+  },
+  "RenDe": {
+    "NAME": "刘备·仁德",
+    "DESCRIPTION": "丢弃任意数量的手牌。 NL 如果丢弃的牌不少于2张，回复 !M! 点生命。 NL 消耗 。"
+  },
+  "Sha": {
+    "NAME": "杀",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 只有在有使用 次数 时才能打出。",
+    "UPGRADE_DESCRIPTION": "我在本回合不能再使用杀。"
+  },
+  "Shan": {
+    "NAME": "闪",
+    "DESCRIPTION": "不能被打出 。 NL 受到攻击伤害时，丢弃此牌并使伤害降低 !M! 点（优先使用手牌左侧的 *闪 ）。"
+  },
+  "ShanDian": {
+    "NAME": "闪电",
+    "DESCRIPTION": "锦囊 。 NL 每当你使用一张牌时，有1/8的概率触发，对随机敌人造成 !M! 点 雷电 伤害。"
+  },
+  "ShiBei": {
+    "NAME": "沮授·矢北",
+    "DESCRIPTION": "防止每回合受到的第一次攻击伤害。 NL 在同一回合内受到多于一次的攻击伤害时，每次伤害额外失去 !M! 点生命。"
+  },
+  "ShuangXiong": {
+    "NAME": "颜良文丑·双雄",
+    "DESCRIPTION": "使用 *决斗 时，不再丢弃手牌中的 *杀 ，但仍然造成额外伤害。",
+    "UPGRADE_DESCRIPTION": "使用 *决斗 时，不再丢弃手牌中的 *杀 ，但仍然造成额外伤害。 NL 增加一张 *决斗 到你的手牌。"
+  },
+  "ShunShouQianYang": {
+    "NAME": "顺手牵羊",
+    "DESCRIPTION": "锦囊 。 NL 移除目标身上的一种随机正面效果。 NL 如果是 通用 效果，改为由玩家获得。 NL 对bOSS敌人无效。 NL 消耗 。"
+  },
+  "Tao": {
+    "NAME": "桃",
+    "DESCRIPTION": "回复 !M! 点生命。 NL 消耗 。 虚无 。"
+  },
+  "TaoLuan": {
+    "NAME": "张让·滔乱",
+    "DESCRIPTION": "选择一张本场战斗未使用过的 基本 或 锦囊 牌的 转化 加入你的手牌。 NL （ *闪 、 *桃 和 *桃园结义 除外。）",
+    "UPGRADE_DESCRIPTION": "选择一张升级过的本场战斗未使用过的 基本 或 锦囊 牌的 转化 加入你的手牌。 NL （ *闪 、 *桃 和 *桃园结义 除外。）"
+  },
+  "TaoYuanJieYi": {
+    "NAME": "桃园结义",
+    "DESCRIPTION": "锦囊 。 NL 令玩家和所有敌人回复 !M! 点生命。 NL 消耗 。 虚无 。"
+  },
+  "TiaoXin": {
+    "NAME": "姜维·挑衅",
+    "DESCRIPTION": "如果目标的意图不是攻击，给予 !M! 层 虚弱 和 易伤 。"
+  },
+  "TieSuoLianHuan": {
+    "NAME": "铁索连环",
+    "DESCRIPTION": "锦囊 。 NL 如果当前只有一名敌人，抽1张牌。否则，给予所有敌人 连环 状态。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "锦囊 。 NL 如果当前只有一名敌人，抽1张牌。否则，给予所有敌人 连环 状态。"
+  },
+  "TunJiang": {
+    "NAME": "刘琦·屯江",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 此回合结束时，如果你未于此回合内打出过 *攻击 牌，再次获得等量的 格挡 。"
+  },
+  "TuShe": {
+    "NAME": "刘焉·图射",
+    "DESCRIPTION": "当你于回合内打出一张牌后，如果你的手牌中没有 基本 牌，抽 !M! 张牌。"
+  },
+  "XianTu": {
+    "NAME": "张松·献图",
+    "DESCRIPTION": "获得 [E] ，抽2张牌。 NL 打出此牌后，如果未杀死至少一名敌人，在回合结束时失去10点生命。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "获得 [E] [E] ，抽2张牌。 NL 打出此牌后，如果未杀死至少一名敌人，在回合结束时失去10点生命。 NL 消耗 。"
+  },
+  "XiongHuo": {
+    "NAME": "徐荣·凶镬",
+    "DESCRIPTION": "增加 !M! 张 *暴戾 到你的手牌。 NL 消耗 。"
+  },
+  "XiongLuan": {
+    "NAME": "张绣·雄乱",
+    "DESCRIPTION": "移除目标的所有格挡。 NL 给予 !M! 层 易伤 。 NL 本回合内使用 *杀 无次数限制。 NL 消耗 。"
+  },
+  "WangXi": {
+    "NAME": "李典·忘隙",
+    "DESCRIPTION": "如果你在本回合没有打出过攻击牌，获得 !B! 点 格挡，给予目标 !B! 点 格挡 。"
+  },
+  "WanJianQiFa": {
+    "NAME": "万箭齐发",
+    "DESCRIPTION": "锦囊 。 NL 只有当手牌中有 *闪 时才能打出。 NL 丢弃最左侧的 *闪 ，并对所有敌人造成 !D! 点伤害2次。",
+    "UPGRADE_DESCRIPTION": "锦囊 。 NL 只有当手牌中有 *闪 时才能打出。 NL 对所有敌人造成 !D! 点伤害2次。"
+  },
+  "WuGuFengDeng": {
+    "NAME": "五谷丰登",
+    "DESCRIPTION": "在手牌中加入X张 *奇迹+ 。接下来的X个回合开始时，失去 [E] 。 NL （X为当前场上敌人数） NL 消耗 。"
+  },
+  "WuSheng": {
+    "NAME": "关羽·武圣",
+    "DESCRIPTION": "丢弃任意数量的手牌。 NL 在手牌中加入等量 转化 的 *杀 。",
+    "UPGRADE_DESCRIPTION": "丢弃任意数量的手牌。 NL 在手牌中加入等量 转化 的 *杀+ 。"
+  },
+  "WuShuang": {
+    "NAME": "吕布·无双",
+    "DESCRIPTION": " *杀 和 *决斗 额外造成 !M! 点伤害。"
+  },
+  "WuXieKeJi": {
+    "NAME": "无懈可击",
+    "DESCRIPTION": "锦囊 。 NL 获得 !B! 点 格挡 。 NL 获得 !M! 层 人工制品 。 NL 消耗 。"
+  },
+  "WuZhongShengYou": {
+    "NAME": "无中生有",
+    "DESCRIPTION": "锦囊 。 NL 抽 !M! 张牌。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "锦囊 。 NL 抽 !M! 张牌。"
+  },
+  "XunXun": {
+    "NAME": "李典·恂恂",
+    "DESCRIPTION": "预见 !M! 。 NL 抽2张牌。"
+  },
+  "YanYu": {
+    "NAME": "夏侯氏·燕语",
+    "DESCRIPTION": "丢弃一张 *杀 ，然后获得 [E] 。",
+    "UPGRADE_DESCRIPTION": "丢弃一张 *杀 ，然后获得 [E] [E] 。"
+  },
+  "YaoWu": {
+    "NAME": "华雄·耀武",
+    "DESCRIPTION": "获得 !M! 层 金属化 。 NL 每当你受到攻击时，攻击者获得2点 格挡 。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 回合开始时获得 [E] 。 NL 每当你受到攻击时，攻击者获得2点 格挡 。"
+  },
+  "YeYan": {
+    "NAME": "神周瑜·业炎",
+    "DESCRIPTION": "丢弃 !M! 张手牌。 NL 造成 !D! 点 火焰 伤害。 NL 消耗 。"
+  },
+  "YingHun": {
+    "NAME": "孙坚·英魂",
+    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。 NL 每已损失20点生命，就额外造成一次伤害。"
+  },
+  "YingJian": {
+    "NAME": "孙茹·影箭",
+    "DESCRIPTION": "回合开始时，额外获得一次杀的使用 次数 ，并增加一张 转化 的杀到你的手牌。"
+  },
+  "YingYuan": {
+    "NAME": "马良·应援",
+    "DESCRIPTION": "使用非 转化 的 基本 或 锦囊 牌时，如果本回合内没有使用过同名的牌，将1张该牌的 转化 加入抽牌堆中。"
+  },
+  "YiJi": {
+    "NAME": "郭嘉·遗计",
+    "DESCRIPTION": "每当你受到来自敌人的伤害时，抽 !M! 张牌。"
+  },
+  "YiZhong": {
+    "NAME": "于禁·毅重",
+    "DESCRIPTION": "每张 *闪 额外抵挡 !M! 点伤害。"
+  },
+  "YouDi": {
+    "NAME": "周鲂·诱敌",
+    "DESCRIPTION": "随机丢弃1张手牌。如果丢弃的牌：不是 *杀 ，获得 !M! 点 力量 。 NL 不是 *能力 牌，抽3张牌。"
+  },
+  "ZhanHuo": {
+    "NAME": "神陆逊·绽火",
+    "DESCRIPTION": "移除所有 军略 标记。 NL 对随机一名处于 连环 状态的敌人造成移除标记数量* !D! 点火焰伤害。 NL 消耗 。"
+  },
+  "ZhanJue": {
+    "NAME": "刘谌·战绝",
+    "DESCRIPTION": "丢弃所有手牌。 NL 在手牌中加入一张 转化 的 *决斗 ，并抽2张牌 。",
+    "UPGRADE_DESCRIPTION": "丢弃所有手牌。 NL 在手牌中加入一张 转化 的 *决斗+ ，并抽2张牌 。"
+  },
+  "ZhaXiang": {
+    "NAME": "界黄盖·诈降",
+    "DESCRIPTION": "每当你从一张牌中失去生命时，抽 !M! 张牌。 NL 如果此时在你的回合内，本回合可使用杀的 次数 + !M! 。"
+  },
+  "ZhiHeng": {
+    "NAME": "孙权·制衡",
+    "DESCRIPTION": "丢弃任意数量的牌，然后抽等量的牌。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "丢弃任意数量的牌，然后抽等量的牌。"
+  }
+
+}

@@ -1,0 +1,274 @@
+{
+  "baoli": {
+    "NAME": "暴戾标记",
+    "DESCRIPTIONS": ["本回合内受到的攻击伤害增加50%。回合开始时，随机执行一项负面效果。死亡时，获得 [E] 并增加一张 #y徐荣·暴戾 到你的手牌。"]
+  },
+  "bazhen": {
+    "NAME": "八阵",
+    "DESCRIPTIONS": ["回合开始时，增加 #y"," 张 #y转化 的闪到你的手牌。"]
+  },
+  "benghuai": {
+    "NAME": "崩坏",
+    "DESCRIPTIONS": ["回合结束时，失去 #y"," 点生命。"]
+  },
+  "bingliangcunduan": {
+    "NAME": "兵粮寸断",
+    "DESCRIPTIONS": ["在 #y"," 回合内无法获得格挡。"]
+  },
+  "buqu": {
+    "NAME": "不屈",
+    "DESCRIPTIONS": ["抵消接下来失去的 #y"," 点生命。如果全部抵消，玩家将受到 #y"," 点伤害。"]
+  },
+  "DrawLessPower": {
+    "NAME": "下回合抽牌减少",
+    "DESCRIPTIONS": ["下个回合，少抽 #y"," 张牌。"]
+  },
+  "EnergyLosePower": {
+    "NAME": "失去能量",
+    "DESCRIPTIONS": ["接下来 #y"," 个回合开始时，失去 [E] 。"]
+  },
+  "fenyin": {
+    "NAME": "奋音",
+    "DESCRIPTIONS": ["当你在回合内使用的牌与上一张类别不同时，抽 #y"," 张牌。"]
+  },
+  "guicai": {
+    "NAME": "鬼才",
+    "DESCRIPTIONS": ["闪电、乐不思蜀和兵粮寸断必定触发。"]
+  },
+  "guzheng": {
+    "NAME": "固政",
+    "DESCRIPTIONS": ["如果你在回合内丢弃的手牌数超过1张，每额外丢弃1张，在本回合结束时获得 #y"," 点格挡。（本回合获得 #b"," 点格挡）"]
+  },
+  "hanyong": {
+    "NAME": "悍勇",
+    "DESCRIPTIONS": ["南蛮入侵和万箭齐发额外造成 #y"," 倍伤害。"]
+  },
+  "ShaTimesPower": {
+    "NAME": "“杀”使用次数",
+    "DESCRIPTIONS": ["你在本回合还可以使用 #y"," 次”杀“。"]
+  },
+  "jianxiong": {
+    "NAME": "奸雄",
+    "DESCRIPTIONS": ["受到未被格挡的攻击伤害时，获得 #y"," 点力量。"]
+  },
+  "jianying": {
+    "NAME": "渐营",
+    "DESCRIPTIONS": ["当你在回合内使用的牌与上一张类别相同时，抽 #y"," 张牌。"]
+  },
+  "jiaozi": {
+    "NAME": "骄恣",
+    "DESCRIPTIONS": ["回合结束时，如果你的手牌小于等于 #y"," 张，退出当前姿态。"]
+  },
+  "jiayima": {
+    "NAME": "马",
+    "DESCRIPTIONS": ["本回合内，每当你使用杀时，获得 #y"," 点格挡。"]
+  },
+  "jieming": {
+    "NAME": "节命",
+    "DESCRIPTIONS": ["当你受到伤害时，获得 #y"," 点格挡。"]
+  },
+  "jieyingzi": {
+    "NAME": "界英姿",
+    "DESCRIPTIONS": ["回合开始时，额外抽 #y"," 张牌，你的手牌上限改为使用体力上限而不是当前体力值计算。"]
+  },
+  "jili": {
+    "NAME": "蒺藜",
+    "DESCRIPTIONS": ["当你于回合内使用的第X张牌等于其耗能时，获得等同于其耗能","倍的能量。"]
+  },
+  "jiu": {
+    "NAME": "酒",
+    "DESCRIPTIONS": ["在这个回合内，你使用的下一张 #y杀 的伤害提高 #y", " 点。"]
+  },
+  "jizhi": {
+    "NAME": "集智",
+    "DESCRIPTIONS": ["每使用一张 #y锦囊 牌，抽","张牌。"]
+  },
+  "ju": {
+    "NAME": "橘",
+    "DESCRIPTIONS": ["防止你受到的下 #y"," 次生命损伤。回合开始时，额外获得 [E] 。"]
+  },
+  "juejin": {
+    "NAME": "决进",
+    "DESCRIPTIONS": ["战斗结束时，回复等同于你剩余 #y格挡 的生命。"]
+  },
+  "jugu": {
+    "NAME": "巨贾",
+    "DESCRIPTIONS": ["手牌上限增加 #y"," 。"]
+  },
+  "junlue": {
+    "NAME": "军略",
+    "DESCRIPTIONS": ["当你造成或受到攻击伤害时，获得一个 #y军略 标记。"]
+  },
+  "junluebiaoji": {
+    "NAME": "军略标记",
+    "DESCRIPTIONS": ["用于触发 神陆逊 的技能效果。"]
+  },
+  "jushou": {
+    "NAME": "据守",
+    "DESCRIPTIONS": ["在下个回合内不能出牌。"]
+  },
+  "juxiang": {
+    "NAME": "巨象",
+    "DESCRIPTIONS": ["当你使用的 #b南蛮入侵 进入弃牌堆中时，将其返回你的手牌。"]
+  },
+  "kangkai": {
+    "NAME": "慷忾",
+    "DESCRIPTIONS": ["每当你被攻击时，抽 #y"," 张牌。"]
+  },
+  "keji": {
+    "NAME": "克己",
+    "DESCRIPTIONS": ["你始终跳过你的弃牌阶段。"]
+  },
+  "KongCheng": {
+    "NAME": "空城",
+    "DESCRIPTIONS": ["如果你没有手牌，防止你受到的所有攻击伤害。"]
+  },
+  "kuangcai": {
+    "NAME": "狂才",
+    "DESCRIPTIONS": ["每使用一张牌，抽一张牌。使用 #y5 张牌后，结束当前回合。"]
+  },
+  "kuangfeng": {
+    "NAME": "狂风",
+    "DESCRIPTIONS": ["在","个回合内，受到的 #r火焰 伤害翻倍。"]
+  },
+  "lebusishu": {
+    "NAME": "跳过出牌",
+    "DESCRIPTIONS": ["跳过你的下个出牌阶段。"]
+  },
+  "leiji": {
+    "NAME": "雷击",
+    "DESCRIPTIONS": ["每有一张闪生效，对随机敌人造成 #y"," 点伤害。"]
+  },
+  "liangzhu": {
+    "NAME": "良助",
+    "DESCRIPTIONS": ["当你回复生命时，抽 #y"," 张牌且获得等量的费用。"]
+  },
+  "lianpo": {
+    "NAME": "连破",
+    "DESCRIPTIONS": ["如果你在回合内杀死了至少一名敌人，在此回合结束后，执行一个额外的回合。"]
+  },
+  "lianying": {
+    "NAME": "连营",
+    "DESCRIPTIONS": ["当你失去最后的手牌时，抽 #y"," 张牌并获得等量的能量。"]
+  },
+  "liegong": {
+    "NAME": "烈弓",
+    "DESCRIPTIONS": ["当你使用一张不同类别的牌时，记录其类别并叠加 #y"," 层 #b标记 。当你使用杀时，消耗所有 #b标记 层数并造成等量的额外伤害。"]
+  },
+  "liegongbiaoji": {
+    "NAME": "烈弓",
+    "DESCRIPTIONS": ["接下来使用的下一张 #y杀 额外造成 #y"," 点伤害。"]
+  },
+  "GuanXing": {
+    "NAME": "观星",
+    "DESCRIPTIONS": ["回合开始时，预见X（X为场上存活的单位数且至多为5）。"]
+  },
+  "ma": {
+    "NAME": "马",
+    "DESCRIPTIONS": ["本回合内，你使用的下 #y", " 张杀造成伤害时，获得等同于未被格挡伤害值的格挡。"]
+  },
+  "mingjian": {
+    "NAME": "明鉴",
+    "DESCRIPTIONS": ["下回合获得 #y"," 次杀的使用次数。"]
+  },
+  "moshi": {
+    "NAME": "默识",
+    "DESCRIPTIONS": ["回合结束时，获得接下来使用的 #y"," 张牌的复制。"]
+  },
+  "NextTurnStrengthPower": {
+    "NAME": "下回合力量",
+    "DESCRIPTIONS": ["下个回合，获得 #y"," 点临时力量。"]
+  },
+  "PaoXiao": {
+    "NAME": "咆哮",
+    "DESCRIPTIONS": ["回合内使用杀无次数限制。"]
+  },
+  "pojun": {
+    "NAME": "破军",
+    "DESCRIPTIONS": ["当你使用 #y杀 时，目标在本回合内失去 #y"," 点力量。 #y杀 对力量不高于你的目标造成双倍伤害。"]
+  },
+  "qicai": {
+    "NAME": "奇才",
+    "DESCRIPTIONS": ["使用 #y锦囊 牌时，如果本回合未使用过与其同名的牌，获得 #y"," 点格挡。"]
+  },
+  "qiangzhi": {
+    "NAME": "强识",
+    "DESCRIPTIONS": ["在这个回合内，使用 #y"," 牌时，获得,", " 点格挡。"]
+  },
+  "quan": {
+    "NAME": "权",
+    "DESCRIPTIONS": ["你的手牌上限加 #y", " 。"]
+  },
+  "quanji": {
+    "NAME": "权计",
+    "DESCRIPTIONS": ["当你受到未被格挡的攻击伤害时，获得 #y"," 点个 #y权 标记。"]
+  },
+  "quedi": {
+    "NAME": "却敌",
+    "DESCRIPTIONS": ["你在本回合内使用的下一张杀或决斗的伤害提高 #y"," 点。"]
+  },
+  "shandian": {
+    "NAME": "闪电",
+    "DESCRIPTIONS": ["当你打出一张牌时，有1/8的概率触发，触发时对随机敌人 #b"," 点雷电伤害。"]
+  },
+  "shibei": {
+    "NAME": "矢北",
+    "DESCRIPTIONS": ["防止你在每回合受到的第一次攻击伤害。当你在同一回合内受到两次或更多伤害时，额外失去 #y"," 生命。"]
+  },
+  "shuangxiong": {
+    "NAME": "双雄",
+    "DESCRIPTIONS": ["使用决斗时，不再丢弃手牌中的杀。"]
+  },
+  "tiesuolianhuan": {
+    "NAME": "连环",
+    "DESCRIPTIONS": ["这名敌人受到属性伤害时，所有处于连环状态的敌人都会受到等量伤害。"]
+  },
+  "tunjiang": {
+    "NAME": "屯江",
+    "DESCRIPTIONS": ["本回合结束时，如果未使用过 #y攻击 牌，获得 #y"," 点格挡。"]
+  },
+  "tushe": {
+    "NAME": "图射",
+    "DESCRIPTIONS": ["当你使用一张牌后，如果你的手牌中没有基本牌，抽 #y"," 张牌。"]
+  },
+  "unableusesha": {
+    "NAME": "不能出杀",
+    "DESCRIPTIONS": ["在这个回合内，不能使用 #y杀 。"]
+  },
+  "wushuang": {
+    "NAME": "无双",
+    "DESCRIPTIONS": ["#y杀 和 #y决斗 额外造成 #y"," 点伤害。"]
+  },
+  "xiantu": {
+    "NAME": "献图",
+    "DESCRIPTIONS": ["如果你未杀死一名敌人，在回合结束时失去","点生命。"]
+  },
+  "yaowu": {
+    "NAME": "耀武",
+    "DESCRIPTIONS": ["受到攻击时，给予攻击者 #y"," 点格挡。"]
+  },
+  "yiji": {
+    "NAME": "遗计",
+    "DESCRIPTIONS": ["每当受到来自敌人的伤害时，抽 #y"," 张牌。"]
+  },
+  "ying": {
+    "NAME": "营",
+    "DESCRIPTIONS": ["下个回合开始时，失去3点力量，令玩家获得3点力量并额外抽1张牌。"]
+  },
+  "yingjian": {
+    "NAME": "影箭",
+    "DESCRIPTIONS": ["回合开始时，获得 #y"," 次杀的使用次数和等量转化的杀。"]
+  },
+  "yingyuan": {
+    "NAME": "应援",
+    "DESCRIPTIONS": ["使用 #y杀 或 #y锦囊 牌时，如果本回合没有使用过同名的牌，将 #y"," 张该牌的转化加入抽牌堆中。"]
+  },
+  "yizhong": {
+    "NAME": "毅重",
+    "DESCRIPTIONS": ["所有 #y闪 的数值提高 #y"," 点。"]
+  },
+  "zhaxiang": {
+    "NAME": "诈降",
+    "DESCRIPTIONS": ["每当你从一张牌中失去生命时，抽 #y"," 张牌。如果在你的回合内，获得等量的使用“杀”的次数。"]
+  }
+}

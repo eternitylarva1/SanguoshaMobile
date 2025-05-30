@@ -1,0 +1,62 @@
+{
+  "BaGuaZhen": {
+    "NAME": "八卦阵",
+    "FLAVOR": "乾三连，坤六断，震仰盂，艮覆碗，离中虚，坎中满，兑上缺，巽下断。",
+    "DESCRIPTIONS": ["每2个回合的回合结束时，增加一张 #y转化 的闪到你的手牌。"]
+  },
+  "BaiYinShiZi": {
+    "NAME": "白银狮子",
+    "FLAVOR": "狮盔兽带，面如冠玉，眼若流星。",
+    "DESCRIPTIONS": ["每次失去生命时，至多失去 #y10 点生命。"]
+  },
+  "GuDingDao": {
+    "NAME": "古锭刀",
+    "FLAVOR": "披烂银铠，裹赤帻，横古锭刀，骑花鬃马。",
+    "DESCRIPTIONS": ["当你使用 #y杀 指定目标时，如果目标的 #y力量 小于等于0，伤害提高50%。"]
+  },
+  "LuxuryGeneralCardPack": {
+    "NAME": "豪华武将包",
+    "FLAVOR": "我们的游戏，正在蒸蒸日上哦！",
+    "DESCRIPTIONS": ["替换 #y随机武将包 。在每场战斗开始时，你可以从3张随机 #y武将 牌中选择1张增加到你的手牌，且其本回合耗能变为0。"]
+  },
+  "QingGangJian": {
+    "NAME": "青釭剑",
+    "FLAVOR": "云乃拔青釭剑乱砍，手起处，衣甲平过，血如涌泉。",
+    "DESCRIPTIONS": ["当你使用 #y杀 指定目标时，移除目标的所有 #b格挡 。"]
+  },
+  "QingLongYanYueDao": {
+    "NAME": "青龙偃月刀",
+    "FLAVOR": "刀势即大，其三十六法，兵仗遇之，无不屈者，刀类中以此为第一。",
+    "DESCRIPTIONS": ["每回合额外获得一次使用 #y杀 的次数。"]
+  },
+  "RandomGeneralCardPack": {
+    "NAME": "随机武将包",
+    "FLAVOR": "我们的游戏正在蒸蒸日上哦。",
+    "DESCRIPTIONS": ["在每场战斗开始时，增加1张随机 #y武将 牌到你的手牌。"]
+  },
+  "RenWangDun": {
+    "NAME": "仁王盾",
+    "FLAVOR": "握仁王之宝镜，日月重光。",
+    "DESCRIPTIONS": ["每张 #y闪 可以额外抵挡 #y2 点伤害。"]
+  },
+  "SgsModCore": {
+    "NAME": "三国杀Mod核心",
+    "FLAVOR": "本Mod由超帕味棉花糖制作 反馈Q群：855136501.",
+    "DESCRIPTIONS": ["#r！请勿移除！ 本遗物用于实现三国杀Mod的特殊机制，移除会导致部分效果无法正确结算。"]
+  },
+  "ShengGuangBaiYi": {
+    "NAME": "圣光白衣",
+    "FLAVOR": "蒙拜谢，点兵三万，快船八十余只，选会水者扮作商人，皆穿白衣。",
+    "DESCRIPTIONS": ["每场战斗开始时获得 #b6 点格挡。弃牌阶段，你的手牌上限 #b+2 。"]
+  },
+  "ZhuGeLianNu": {
+    "NAME": "诸葛连弩",
+    "FLAVOR": "又损益连弩，谓之元戎，以铁为矢，矢长八寸，一弩十矢俱发。",
+    "DESCRIPTIONS": ["你在回合内使用 #y杀 无次数限制。"]
+  },
+  "ZhuQueYuShan": {
+    "NAME": "朱雀羽扇",
+    "FLAVOR": "羽扇纶巾，谈笑间，樯橹灰飞烟灭。",
+    "DESCRIPTIONS": ["拾起时，将卡组中所有的 #y杀 替换为 #r火杀 。"]
+  }
+}

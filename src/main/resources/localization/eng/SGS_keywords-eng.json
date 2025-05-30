@@ -1,0 +1,36 @@
+{
+  "keywords": [
+    {
+      "NAMES": [
+        "trap",
+        "traps"
+      ],
+      "DESCRIPTION": "#yTrap only triggers its effect when conditions are met."
+    },
+    {
+      "NAMES": [
+        "seriousinjury"
+      ],
+      "DESCRIPTION": "Creatures with #ySeriousInjury effect receive 50% extra damage from #ynon-attack sources."
+    },
+    {
+      "NAMES": [
+        "resetdebris"
+      ],
+      "DESCRIPTION": "End the current turn and immediately take an extra turn, where in the new turn: NL - Retain your block. NL - Gain energy equal to your current energy count."
+    },
+    {
+      "NAMES": [
+        "syndrome"
+      ],
+      "DESCRIPTION": "When Hinamizawa Syndrome reaches: NL #yLV3: This enemy deals damage to all enemies when attacking. NL #yLV5: This enemy loses half of its current health at the start of its turn."
+    },
+    {
+      "NAMES": [
+        "freeattack"
+      ],
+      "DESCRIPTION": "Make the cost of your next attack card be 0."
+    }
+  ]
+}
+

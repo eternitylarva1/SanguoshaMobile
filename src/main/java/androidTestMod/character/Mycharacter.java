@@ -1,29 +1,38 @@
 package androidTestMod.character;
 
 import androidTestMod.AndroidTestMod;
+import androidTestMod.cards.Basic.Jiu;
+import androidTestMod.cards.Basic.Sha;
+import androidTestMod.cards.Basic.Shan;
+import androidTestMod.cards.General.*;
+import androidTestMod.cards.JinNang.JueDou;
+import androidTestMod.cards.JinNang.LeBuSiShu;
+import androidTestMod.cards.JinNang.ShanDian;
 import androidTestMod.cards.yellow.TestStrike;
 import androidTestMod.enums.CardColorEnum;
+import androidTestMod.patch.SkinSelectScreen;
+import androidTestMod.relics.RandomGeneralCardPack;
+import androidTestMod.relics.SgsModCore;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 
-import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.android.mods.AssetLoader;
 import com.megacrit.cardcrawl.android.mods.abstracts.CustomPlayer;
-import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.EnergyManager;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.cutscenes.CutscenePanel;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.events.city.Vampires;
 import com.megacrit.cardcrawl.helpers.*;
 import com.megacrit.cardcrawl.localization.CharacterStrings;
-import com.megacrit.cardcrawl.monsters.city.Snecko;
-import com.megacrit.cardcrawl.relics.SneckoEye;
-import com.megacrit.cardcrawl.relics.Vajra;
+import com.megacrit.cardcrawl.relics.RunicPyramid;
 import com.megacrit.cardcrawl.screens.CharSelectInfo;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 
 import static androidTestMod.AndroidTestMod.getResourcePath;
@@ -35,6 +44,13 @@ public class Mycharacter extends CustomPlayer {
     private static final String MY_CHARACTER_SHOULDER_1 = getResourcePath("char/shoulder1.png");
     // 火堆的人物立绘（行动后）
     private static final String MY_CHARACTER_SHOULDER_2 = getResourcePath("char/shoulder2.png");
+    private static final String SHOULDER_2 = "img/char/shoulder1.png";
+    private static final String SHOULDER_1 = "img/char/shoulder1.png";
+    private static final int STARTING_HP = 80;
+    private static final int MAX_HP = 80;
+    private static final int STARTING_GOLD = 99;
+    private static final int HAND_SIZE = 0;
+    private static final int HAND = 5;
     // 人物死亡图像
     private static final String CORPSE_IMAGE = getResourcePath("char/corpse.png");
     // 战斗界面左下角能量图标的每个图层
@@ -54,7 +70,7 @@ public class Mycharacter extends CustomPlayer {
     // 每个图层的旋转速度
     private static final float[] LAYER_SPEED = new float[]{-40.0F, -32.0F, 20.0F, -20.0F, 0.0F, -10.0F, -8.0F, 5.0F, -5.0F, 0.0F};
     // 人物的本地化文本，如卡牌的本地化文本一样，如何书写见下
-    private static final CharacterStrings characterStrings = CardCrawlGame.languagePack.getCharacterString(makeId("Mycharacter"));
+
     protected void initializeClass(String imgUrl, String shoulder2ImgUrl, String shouldImgUrl, String corpseImgUrl, CharSelectInfo info, float hb_x, float hb_y, float hb_w, float hb_h, EnergyManager energy) {
         if (imgUrl != null) {
             this.img = AssetLoader.getTexture(AndroidTestMod.MOD_ID,imgUrl);
@@ -78,7 +94,7 @@ public class Mycharacter extends CustomPlayer {
         this.currentHealth = info.currentHp;
         this.masterMaxOrbs = info.maxOrbs;
         this.energy = energy;
-        this.masterHandSize = info.cardDraw;
+        this.masterHandSize = HAND_SIZE;
         this.gameHandSize = this.masterHandSize;
         this.gold = info.gold;
         this.displayGold = this.gold;
@@ -90,8 +106,27 @@ public class Mycharacter extends CustomPlayer {
         this.healthHb = new Hitbox(this.hb.width, 72.0F * Settings.scale);
         this.refreshHitboxLocation();
     }
+@Override
+    protected void initializeStarterRelics(PlayerClass chosenClass) {
+        super.initializeStarterRelics(chosenClass);
+        ArrayList<String> relics = this.getStartingRelics();
+        relics.add(SgsModCore.ID);
+        relics.add(RunicPyramid.ID);
+
+
+        int index = 0;
+
+        for(Iterator<String> var4 = relics.iterator(); var4.hasNext(); ++index) {
+            String s = (String)var4.next();
+            RelicLibrary.getRelic(s).makeCopy().instantObtain(this, index, false);
+        }
+
+
+        AbstractDungeon.relicsToRemoveOnStart.addAll(relics);
+    }
+
     public Mycharacter(String name) {
-        super(AndroidTestMod.MOD_ID,name, CardColorEnum.Cangjie,null,getResourcePath("orb/vfx.png"), null, null, null);
+        super(AndroidTestMod.MOD_ID,name, CardColorEnum.SGS,null,getResourcePath("orb/vfx.png"), null, null, null);
 
 
         // 人物对话气泡的大小，如果游戏中尺寸不对在这里修改（libgdx的坐标轴左下为原点）
@@ -102,7 +137,7 @@ public class Mycharacter extends CustomPlayer {
         // 初始化你的人物，如果你的人物只有一张图，那么第一个参数填写你人物图片的路径。
         this.initializeClass(
                 getResourcePath("char/character.png"), // 人物图片
-                MY_CHARACTER_SHOULDER_2, MY_CHARACTER_SHOULDER_1,
+                SHOULDER_2, SHOULDER_1,
                 CORPSE_IMAGE, // 人物死亡图像
                 this.getLoadout(),
                 0.0F, 0.0F,
@@ -122,46 +157,96 @@ public class Mycharacter extends CustomPlayer {
 
     // 初始卡组的ID，可直接写或引用变量
     public ArrayList<String> getStartingDeck() {
+        //添加初始卡组
         ArrayList<String> retVal = new ArrayList<>();
-        for(int x = 0; x<5; x++) {
-            retVal.add(TestStrike.ID);
+        retVal.add(Sha.ID);
+        retVal.add(Sha.ID);
+        retVal.add(Sha.ID);
+        retVal.add(Sha.ID);
+        //retVal.add(Sha.ID);
+
+        retVal.add(Shan.ID);
+        retVal.add(Shan.ID);
+        retVal.add(Shan.ID);
+        retVal.add(Shan.ID);
+        //retVal.add(Shan.ID);
+
+        retVal.add(Jiu.ID);
+
+        retVal.add(JueDou.ID);
+        retVal.add(LeBuSiShu.ID);
+        //retVal.add(ShanDian.ID);
+        //retVal.add(WanJianQiFa.ID);
+
+        if(!SkinSelectScreen.deckLock){
+            switch (SkinSelectScreen.getSkin().name){
+                case "界徐盛": retVal.add(PoJun.ID); break;
+                case "黄月英": retVal.add(JiZhi.ID); break;
+                case "张角": retVal.add(LeiJi.ID); retVal.add(ShanDian.ID); break;
+                case "袁绍": retVal.add(LuanJi.ID); break;
+                case "孙尚香": retVal.add(LiangZhu.ID); break;
+                case "张让": retVal.add(TaoLuan.ID); break;
+                case "刘焉": retVal.add(TuShe.ID); break;
+                case "神陆逊": retVal.add(JunLue.ID); break;
+            }
         }
+
+
         return retVal;
     }
 
     // 初始遗物的ID，可以先写个原版遗物凑数
+    @Override
     public ArrayList<String> getStartingRelics() {
-        ArrayList<String> retVal = new ArrayList<>();
-        retVal.add(SneckoEye.ID);
-        return retVal;
+        //添加初始遗物
+        ArrayList<String> starting_retVal = new ArrayList<>();
+        starting_retVal.add(RandomGeneralCardPack.ID);
+        return starting_retVal;
     }
 
     public CharSelectInfo getLoadout() {
-        return new CharSelectInfo(
-                characterStrings.NAMES[0], // 人物名字
-                characterStrings.TEXT[0], // 人物介绍
-                75, // 当前血量
-                75, // 最大血量
-                0, // 初始充能球栏位
-                99, // 初始携带金币
-                5, // 每回合抽牌数量
-                this, // 别动
-                this.getStartingRelics(), // 初始遗物
-                this.getStartingDeck(), // 初始卡组
-                false // 别动
-        );
+
+            //选英雄界面的文字描述
+            String title="";
+            String flavor="";
+            if (Settings.language == Settings.GameLanguage.ZHS) {
+                title = "三国杀";
+                flavor = "“我们的游戏，正在蒸蒸日上哦！”";
+            } else if (Settings.language == Settings.GameLanguage.ZHT) {
+                title = "三国杀";
+                flavor = "“我们的游戏，正在蒸蒸日上哦！”";
+                //当设定为中国台湾省，title和flavor为繁体描述
+            } else {
+                //其他用英文替代
+                title = "SanGuoSha";
+                flavor = "This mod supports Chinese only. Please change language setting into Chinese.";
+            }
+
+
+            return new CharSelectInfo(title, flavor, STARTING_HP, MAX_HP,HAND_SIZE , STARTING_GOLD, HAND, this, getStartingRelics(), getStartingDeck(), false);
+
+
     }
 
     // 人物名字（出现在游戏左上角）
-    @Override
     public String getTitle(PlayerClass playerClass) {
-        return characterStrings.NAMES[0];
+        //应该是进游戏后左上角的角色名
+        String title="";
+        if (Settings.language == Settings.GameLanguage.ZHS) {
+            title = "三国杀";
+        } else if (Settings.language == Settings.GameLanguage.ZHT) {
+            title = "三国杀";
+        } else {
+            title = "Sgs";
+        }
+
+        return title;
     }
 
     // 你的卡牌颜色（这个枚举在最下方创建）
     @Override
     public AbstractCard.CardColor getCardColor() {
-        return CardColorEnum.YELLOW;
+        return CardColorEnum.SGS_COLOR;
     }
 
     // 翻牌事件出现的你的职业牌（一般设为打击）
@@ -195,13 +280,12 @@ public class Mycharacter extends CustomPlayer {
     }
 
     // 碎心图片
-    @Override
     public ArrayList<CutscenePanel> getCutscenePanels() {
         ArrayList<CutscenePanel> panels = new ArrayList<>();
-        // 有两个参数的，第二个参数表示出现图片时播放的音效
-        panels.add(new CutscenePanel("char/Victory1.png", "ATTACK_MAGIC_FAST_1"));
-        panels.add(new CutscenePanel("char/Victory2.png"));
-        panels.add(new CutscenePanel("char/Victory3.png"));
+        panels.add(new CutscenePanel("img/char/scene1.png", "ATTACK_POISON2"));
+        panels.add(new CutscenePanel("img/char/scene2.png","ATTACK_FIRE"));
+        panels.add(new CutscenePanel("img/char/scene3.png"));
+        panels.add(new CutscenePanel("img/char/scene4.png"));
         return panels;
     }
 
@@ -214,7 +298,15 @@ public class Mycharacter extends CustomPlayer {
     // 游戏中左上角显示在你的名字之后的人物名称
     @Override
     public String getLocalizedCharacterName() {
-        return characterStrings.NAMES[0];
+        String char_name;
+        if (Settings.language == Settings.GameLanguage.ZHS) {
+            char_name = "三国杀";
+        } else if (Settings.language == Settings.GameLanguage.ZHT) {
+            char_name = "三国杀";
+        } else {
+            char_name = "SanGuoSha";
+        }
+        return char_name;
     }
 
     // 创建人物实例，照抄
@@ -224,9 +316,8 @@ public class Mycharacter extends CustomPlayer {
     }
 
     // 第三章面对心脏说的话（例如战士是“你握紧了你的长刀……”之类的）
-    @Override
     public String getSpireHeartText() {
-        return characterStrings.TEXT[1];
+        return Settings.language == Settings.GameLanguage.ZHS ? "NL 你举起青釭剑……" : "NL You hold Onigari No Ryuuou...";
     }
 
     // 打心脏的颜色，不是很明显

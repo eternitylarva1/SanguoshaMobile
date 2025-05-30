@@ -1,0 +1,268 @@
+{
+  "AbsoluteFormPower": {
+    "NAME": "Absolute Form",
+    "DESCRIPTIONS": [
+      "When you deal damage, gain Block equal to the damage dealt of #b",
+      "%. At the start of each turn, give all enemies the same amount of Strength."
+    ]
+  },
+  "AbsoluteWillPower": {
+    "NAME": "Absolute Will",
+    "DESCRIPTIONS": [
+      "Enemies with Serious Injury take an additional #b",
+      "% #yNon-Attack damage."
+    ]
+  },
+  "BlessingPower": {
+    "NAME": "Blessing",
+    "DESCRIPTIONS": [
+      "At the end of your turn, if you have #b",
+      " or more #yBlessing, Exhaust #b",
+      " #yBlessing and take an extra turn."
+    ]
+  },
+  "BloodOfGhostPower": {
+    "NAME": "Blood of the Ghost",
+    "DESCRIPTIONS": [
+      "Whenever you lose health, lose #y",
+      " less health."
+    ]
+  },
+  "CeremonyPower": {
+    "NAME": "Ceremony",
+    "DESCRIPTIONS": [
+      "At the start of your turn, add #b",
+      " #yExorcise cards to your hand."
+    ]
+  },
+  "CheatPower": {
+    "NAME": "Cheat",
+    "DESCRIPTIONS": [
+      "After #y",
+      " turns, draw #y",
+      " additional cards."
+    ]
+  },
+  "HauntPower": {
+    "NAME": "Haunt",
+    "DESCRIPTIONS": [
+      "At the end of #y",
+      " turns, deal #y",
+      " damage to this enemy."
+    ]
+  },
+  "ChainTrapPower": {
+    "NAME": "Chain Trap",
+    "DESCRIPTIONS": [
+      "For each Trap triggered, draw #y",
+      " cards."
+    ]
+  },
+  "BirthdayGiftPower": {
+    "NAME": "Birthday Gift from Rika",
+    "DESCRIPTIONS": [
+      "When attacked, deal #y",
+      " damage to the attacker."
+    ]
+  },
+  "DoubleTrapPower": {
+    "NAME": "DoubleTrapPower",
+    "DESCRIPTIONS": [
+      "The next #b",
+      " #yTrap cards you play this turn are played twice."
+    ]
+  },
+  "DrawLessPower": {
+    "NAME": "Draw Less Card",
+    "DESCRIPTIONS": ["Draw less #b"," card next turn."]
+  },
+  "FakeGodPower": {
+    "NAME": "Fake Miko",
+    "DESCRIPTIONS": [
+      "After #y",
+      " turns at the start of your turn, add",
+      " copies",
+      " to your hand."
+    ]
+  },
+  "HangTrapPower": {
+    "NAME": "Hanging Trap",
+    "DESCRIPTIONS": [
+      "When you play an Attack card, if you have a negative effect, remove all negative effects."
+    ]
+  },
+  "HoleTrapPower": {
+    "NAME": "Hole Trap",
+    "DESCRIPTIONS": [
+      "Negate the next instance of life loss you would receive this turn."
+    ]
+  },
+  "LoseEnergyPower": {
+    "NAME": "Lose Energy",
+    "DESCRIPTIONS": [
+      "Lose #y",
+      " energy next turn."
+    ]
+  },
+  "MagicTrapPower": {
+    "NAME": "Magic Trap",
+    "DESCRIPTIONS": [
+      "At the start of #y",
+      " turns, deal #y",
+      " damage to a random enemy #b",
+      " times."
+    ]
+  },
+  "MemoryOfReincarnationPower": {
+    "NAME": "Memory",
+    "DESCRIPTIONS": [
+      "When you ResetDebris, gain #y",
+      " Dexterity."
+    ]
+  },
+  "MiracleFormPower": {
+    "NAME": "Miracle Form",
+    "DESCRIPTIONS": [
+      "All damage dealt is increased by #y",
+      ". If you take unblocked attack damage, this effect is disabled for the next turn."
+    ]
+  },
+  "NextTurnStrengthPower": {
+    "NAME": "Next Turn Strength",
+    "DESCRIPTIONS": [
+      "Next turn, gain #y",
+      " temporary Strength."
+    ]
+  },
+  "NoBlessPower": {
+    "NAME": "No Blessing",
+    "DESCRIPTIONS": [
+      "You cannot gain [E] from Blessing this turn."
+    ]
+  },
+  "GhostCardPower": {
+    "NAME": "Ghost Card",
+    "DESCRIPTIONS": [
+      "After #y",
+      " turns, add a Ghost card to your hand."
+    ]
+  },
+  "OnikakuPower": {
+    "NAME": "Onikaku",
+    "DESCRIPTIONS": [
+      "At the start of #y",
+      " turns, deal #y",
+      " damage to this enemy."
+    ]
+  },
+  "MinagoroPower": {
+    "NAME": "Minagoro",
+    "DESCRIPTIONS": [
+      "After #y",
+      " turns at the start of your turn, deal #y",
+      " damage to all enemies and draw 2 cards."
+    ]
+  },
+  "PendantTrapPower": {
+    "NAME": "Pendant Trap",
+    "DESCRIPTIONS": [
+      "After #y",
+      " turns at the end of your turn, deal #y",
+      " damage to all enemies on the field. If the battle is not over, you'll take the same amount of damage."
+    ]
+  },
+  "QueenInfectedPower": {
+    "NAME": "Queen Infected",
+    "DESCRIPTIONS": [
+      "Whenever you draw a #yStatus or #yCurse card, give all enemies #y",
+      " Syndrome."
+    ]
+  },
+  "ResetDebrisPower": {
+    "NAME": "Reset Debris",
+    "DESCRIPTIONS": [
+      "Take an extra turn, retain your Block from the extra turn, but only gain #b",
+      " [E] ."
+    ]
+  },
+  "RollingWoodTrapPower": {
+    "NAME": "Rolling Wood Trap",
+    "DESCRIPTIONS": [
+      "When you take unblocked attack damage, reduce that damage by",
+      " points."
+    ]
+  },
+  "SeriousInjuryPower": {
+    "NAME": "Serious Injury",
+    "DESCRIPTIONS": [
+      "For the next #y",
+      " turns, take extra ",
+      "% #yNon-Attack damage."
+    ]
+  },
+  "SpikePower": {
+    "NAME": "Spike",
+    "DESCRIPTIONS": [
+      "After #y",
+      " turns, deal #y",
+      " damage to enemies and add a copy card to your hand."
+    ]
+  },
+  "PremeditatedPower": {
+    "NAME": "Premeditated",
+    "DESCRIPTIONS": [
+      "Next turn, gain extra #y",
+      " energy."
+    ]
+  },
+  "SuspicionPower": {
+    "NAME": "Suspicion",
+    "DESCRIPTIONS": [
+      "After #y",
+      " turns, give all enemies #y",
+      " stacks of SeriousInjury and Weak."
+    ]
+  },
+  "SyndromePower": {
+    "NAME": "Syndrome of the Lord",
+    "DESCRIPTIONS": [
+      "When reaching #yLV3, this enemy will attack other enemies simultaneously. When reaching #yLV5, lose half of current health at the start of each turn."
+    ]
+  },
+  "DebrisPower": {
+    "NAME": "Save Debris",
+    "DESCRIPTIONS": [
+      "This debris has #b",
+      " health points, #b",
+      " energy points, and #b",
+      " cards in hand."
+    ]
+  },
+  "TragedyCycleTrapPower": {
+    "NAME": "Tragedy Cycle",
+    "DESCRIPTIONS": [
+      "At the start of the next turn, deal #y",
+      " damage to all enemies."
+    ]
+  },
+  "TrapMasterPower": {
+    "NAME": "Trap Master",
+    "DESCRIPTIONS": [
+      "Gain #y",
+      " Block for each trap set."
+    ]
+  },
+  "TripWirePower": {
+    "NAME": "Tripwire",
+    "DESCRIPTIONS": ["When attacked, reduce the remaining turns of all timed Traps by #y"," ."]
+  },
+  "TwilightOfMiraclePower": {
+    "NAME": "Twilight",
+    "DESCRIPTIONS": [
+      "At the start of your turn, reduce the energy cost of the next #y",
+      " #yAttack cards you play to 0."
+    ]
+  }
+}
+
+

@@ -1,0 +1,44 @@
+{
+  "Broccoli": {
+    "NAME": "Broccoli",
+    "FLAVOR": "Broccoli, or cauliflower?",
+    "DESCRIPTIONS": [
+      "For each #yTrap triggered, deal #y8 damage to a random enemy."
+    ]
+  },
+  "Horn": {
+    "NAME": "Horn of the Reincarnator",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      "When you would be killed, prevent the damage and reduce your maximum health by #y10, then heal to #y50% of your maximum health. This effect can only trigger once per combat."
+    ]
+  },
+  "Doll": {
+    "NAME": "Doll",
+    "FLAVOR": "\"Of course, cute things belong to Rena!\"",
+    "DESCRIPTIONS": [
+      "If you have not played #ydifferent types of cards in one turn, gain #y6 block."
+    ]
+  },
+  "BrokenHorn": {
+    "NAME": "Broken Horn",
+    "FLAVOR": "A horn imbued with the power of Hanyuu.",
+    "DESCRIPTIONS": [
+      "At the start of each combat, add 1 #yRoll #ythe #yDice to your hand."
+    ]
+  },
+  "Pumpkin": {
+    "NAME": "Pumpkin",
+    "FLAVOR": "\"I hate pumpkins!!\" - Hojo Satoko",
+    "DESCRIPTIONS": [
+      "Upon pickup, increase your maximum health by #y18, lose #r20 health."
+    ]
+  },
+  "TeddyBear": {
+    "NAME": "Teddy Bear",
+    "FLAVOR": "\"I won't be fooled by you absolutely next time.\"",
+    "DESCRIPTIONS": [
+      "At the start of each battle, apply #b2 #ySeriousInjury to all enemies."
+    ]
+  }
+}

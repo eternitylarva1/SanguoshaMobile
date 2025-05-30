@@ -1,0 +1,21 @@
+{
+  "SeriousInjuryPotion": {
+    "NAME": "Serious Injury Potion",
+    "DESCRIPTIONS": [
+      "Apply #b", " #ySeriousInjury."
+    ]
+  },
+  "HanyuuPotion": {
+    "NAME": "Hanyuu Potion",
+    "DESCRIPTIONS": [
+      "Reset Debris immediately."
+    ]
+  },
+  "H173Potion": {
+    "NAME": "H173-02",
+    "DESCRIPTIONS": [
+      "Apply #b", " Hinamizawa Syndrome."
+    ]
+  }
+}
+

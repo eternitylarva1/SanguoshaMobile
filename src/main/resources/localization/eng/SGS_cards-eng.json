@@ -1,0 +1,343 @@
+{
+  "AbsoluteForm": {
+    "NAME": "Absolute Form",
+    "DESCRIPTION": "Gain Block equal to the amount of half damage dealt. NL At the start of each turn, give all enemies 1 Strength.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Gain Block equal to the amount of half damage dealt. NL At the start of each turn, give all enemies 1 Strength."
+  },
+  "AbsoluteStrike": {
+    "NAME": "Absolute Strike",
+    "DESCRIPTION": "Deal !D! damage. NL Draw 1 card for each untriggered Trap on the field."
+  },
+  "AbsoluteWill": {
+    "NAME": "Absolute Will",
+    "DESCRIPTION": "Enemies with SeriousInjury take additional 50% non-attack damage. NL Apply !M! SeriousInjury to all enemies."
+  },
+  "AutoAttack": {
+    "NAME": "CounterAttack",
+    "DESCRIPTION": "Retain. NL Deal !D! damage to all enemies !M! times.",
+    "EXTENDED_DESCRIPTION": [
+      "This card cannot be played."
+    ]
+  },
+  "Rupture": {
+    "NAME": "Rupture",
+    "DESCRIPTION": "Exhaust. NL If held at the end of the turn, add a copy of this card to the discard pile."
+  },
+  "BloodOfGhost": {
+    "NAME": "Blood of Ghost",
+    "DESCRIPTION": "When you lose HP, lose !M! less HP.",
+    "UPGRADE_DESCRIPTION": "Innate. NL When you lose HP, lose !M! less HP."
+  },
+  "BreakFreeFromFate": {
+    "NAME": "Break Free From Fate",
+    "DESCRIPTION": "Deal !D! damage. NL Gain [E] [E] next turn."
+  },
+  "Mediate": {
+    "NAME": "Mediate",
+    "DESCRIPTION": "Gain !B! Block. NL Draw an additional !M! cards next turn."
+  },
+  "BrowseDebris": {
+    "NAME": "Browse Debris",
+    "DESCRIPTION": "Choose and play !M! cards from the draw pile. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Choose and play !M! cards from the draw pile."
+  },
+  "BurnTheBoat": {
+    "NAME": "Burn The Boat",
+    "DESCRIPTION": "For each other Attack card in your hand, deal !D! damage.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Deal damage for",
+      " times)"
+    ]
+  },
+  "BuryTheHatchet": {
+    "NAME": "Bury the Hatchet",
+    "DESCRIPTION": "Exhaust all status and curse cards from the discard pile. NL For each card Exhausted, draw a card.",
+    "UPGRADE_DESCRIPTION": "Exhaust all status and curse cards from the discard pile. NL For each card Exhausted, draw a card."
+  },
+  "PackAndTakeAway": {
+    "NAME": "Pack and Take Away~",
+    "DESCRIPTION": "Deal !D! damage. NL When Fatal, gain an extra card reward after the battle. NL Exhaust."
+  },
+  "Ceremony": {
+    "NAME": "Ceremony",
+    "DESCRIPTION": "At the start of each turn, add an *Exorcise card to your hand.",
+    "UPGRADE_DESCRIPTION": "Innate. NL At the start of each turn, add an *Exorcise card to your hand."
+  },
+  "CrossChop": {
+    "NAME": "Cross Chop",
+    "DESCRIPTION": "Deal !D! damage. NL Deal additional damage every other turn."
+  },
+  "Crossroad": {
+    "NAME": "Crossroad",
+    "DESCRIPTION": "Draw !M! cards. NL Add a *Rupture to your hand.",
+    "UPGRADE_DESCRIPTION": "Draw !M! cards. NL Add a *Rupture to your discard pile."
+  },
+  "Cure": {
+    "NAME": "Fight on!",
+    "DESCRIPTION": "If your HP is below half of your max HP, gain !M! *Regeneration. NL Exhaust."
+  },
+  "CutEvilSword": {
+    "NAME": "Onigari No Ryuuou",
+    "DESCRIPTION": "Deal !D! damage !M! times. NL At the start of each turn, the number of damage times of this card increase by 1."
+  },
+  "RiverAgainstCurrent": {
+    "NAME": "River Against the Current",
+    "DESCRIPTION": "Gain !M! Strength. NL Gain !M! Dexterity. NL ResetDebris."
+  },
+  "Defend_Satoko": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block."
+  },
+  "PatronSaint": {
+    "NAME": "Patron Saint of Hinamizawa",
+    "DESCRIPTION": "Can only be played if you have not used any cards this turn. NL Deal !D! damage."
+  },
+  "Exorcise": {
+    "NAME": "Exorcise",
+    "DESCRIPTION": "Deal !D! damage !M! times. NL Apply 1 Weak. NL Exhaust. Ethereal.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Apply !M! Vulnerable. NL Ethereal."
+  },
+  "EyeOfReincarnation": {
+    "NAME": "Eye of Reincarnation",
+    "DESCRIPTION": "Gain Block equal to the amount of HP you have lost. NL Exhaust."
+  },
+  "FakeGod": {
+    "NAME": "Fake Miko",
+    "DESCRIPTION": "Choose a card. After 2 turns, add 2 copies of that card to your hand. NL Trap. Exhaust."
+  },
+  "Fate": {
+    "NAME": "Fate",
+    "DESCRIPTION": "Gain !B! Block. NL Retain."
+  },
+  "FlowerOfNerull": {
+    "NAME": "Flower of Nerull",
+    "DESCRIPTION": "Deal !D! damage. NL Add !M! cards from the discard pile to your hand. NL Exhaust."
+  },
+  "BirthdayGift": {
+    "NAME": "Birthday Gift from Rika",
+    "DESCRIPTION": "When attacked, deal !M! damage to the attacker. NL Trap."
+  },
+  "Guarder": {
+    "NAME": "Guarder",
+    "DESCRIPTION": "Deal !D! damage. NL Gain !B! Block for each enemy present."
+  },
+  "H173": {
+    "NAME": "H173",
+    "DESCRIPTION": "Apply !M! Syndrome. NL Apply 1 Strength."
+  },
+  "HangTrap": {
+    "NAME": "Hang Trap",
+    "DESCRIPTION": "When you play an Attack card and have at least one negative effect, remove all your negative effects. NL Trap. Exhaust.",
+    "UPGRADE_DESCRIPTION": "Next time you receive a negative effect, negate it and draw !M! cards. NL Trap."
+  },
+  "HoleTrap": {
+    "NAME": "Pitfall",
+    "DESCRIPTION": "Prevent the next instance of damage you would take this turn. NL Trap. Exhaust.",
+    "UPGRADE_DESCRIPTION": "Prevent the next instance of damage you would take this turn. NL Trap."
+  },
+  "Cheat": {
+    "NAME": "Cheat",
+    "DESCRIPTION": "Draw !M! extra cards next turn. NL Trap."
+  },
+  "Karma": {
+    "NAME": "Karma",
+    "DESCRIPTION": "Apply !M! SeriousInjury. NL Exhaust."
+  },
+  "KeepWatcher": {
+    "NAME": "Keep Watcher",
+    "DESCRIPTION": "Ethereal. NL Gain !B! Block. NL If this card is Exhausted, apply !M! Weak to all enemies."
+  },
+  "Sacrifice": {
+    "NAME": "Sacrifice",
+    "DESCRIPTION": "Exhaust 1 card. Gain !B! Block. NL Each time a Trap is triggered, reduce the cost of this card by 1 for the rest of the combat.",
+    "UPGRADE_DESCRIPTION": "Exhaust a card. NL Next turn, draw an additional card equal to its cost + 1."
+  },
+  "MagicTrap": {
+    "NAME": "Magic Trap",
+    "DESCRIPTION": "For each Trap card in your deck, after 1 turn, deal !M! damage to a random enemy. NL Trap.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (You have",
+      " Trap cards.)"
+    ]
+  },
+  "MemoryOfPriorLife": {
+    "NAME": "Fragments of Time",
+    "DESCRIPTION": "ResetDebris. NL Retain up to !M! card."
+  },
+  "MemoryOfReincarnation": {
+    "NAME": "Memory of Reincarnation",
+    "DESCRIPTION": "Gain !M! PlatedArmor.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Every time you ResetDebris, gain !M! Dexterity."
+  },
+  "Minagoro": {
+    "NAME": "Minagoro",
+    "DESCRIPTION": "After !M! turns, deal 26 damage to all enemies and draw 2 cards. NL Trap."
+  },
+  "Mipa": {
+    "NAME": "Nipa~",
+    "DESCRIPTION": "Apply !M! Weak. NL Gain !B! block."
+  },
+  "MiracleEpitaph": {
+    "NAME": "Miracle Barrier",
+    "DESCRIPTION": "Gain !B! block. NL At the start of each turn, this card's base block value increases by !M!."
+  },
+  "MiracleForm": {
+    "NAME": "Miracle Form",
+    "DESCRIPTION": "Double the damage you deal. NL If you take unblocked attack damage, this effect expires for the next turn.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Double all damage you deal. NL If you take unblocked attack damage, this effect expires for the next turn."
+  },
+  "MiracleStrike": {
+    "NAME": "Miracle Strike",
+    "DESCRIPTION": "Deal !D! damage. NL If the target enemy intends to attack, ResetDebris."
+  },
+  "OceanOfDebris": {
+    "NAME": "Ocean of Debris",
+    "DESCRIPTION": "Gain [E] for each different card category in your hand.",
+    "EXTENDED_DESCRIPTION": [
+      "(Gain ",
+      " )"
+    ]
+  },
+  "Onikaku": {
+    "NAME": "Onikaku",
+    "DESCRIPTION": "Mark an enemy. After 3 turns, deal !M! damage to it. NL Trap."
+  },
+  "Oracle": {
+    "NAME": "Oracle",
+    "DESCRIPTION": "Gain [E]. Retain your block this turn. NL ResetDebris. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain [E] [E]. Retain your block this turn. NL ResetDebris. NL Exhaust."
+  },
+  "OyashiroHaunt": {
+    "NAME": "Oyashiro's Haunting",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Syndrome. NL Exhaust."
+  },
+  "GhostCard": {
+    "NAME": "Ghost Card",
+    "DESCRIPTION": "After !M! turns, add a *Time Freeze to your hand. NL Trap. Exhaust."
+  },
+  "Promise": {
+    "NAME": "Promise",
+    "DESCRIPTION": "If you have not used any attack cards this turn, gain !B! block X times."
+  },
+  "PunishTime": {
+    "NAME": "Punishment Moment",
+    "DESCRIPTION": "Add all Trap cards from the draw pile to your hand. NL Exhaust."
+  },
+  "PurifyEvil": {
+    "NAME": "Purify Evil",
+    "DESCRIPTION": "Gain !B! block. NL Remove all enemies' Syndromes. For each layer removed, gain !M! Dexterity."
+  },
+  "ResidualImage": {
+    "NAME": "Residual Image",
+    "DESCRIPTION": "Next turn, gain !M! temporary Strength."
+  },
+  "RollTheDice": {
+    "NAME": "Roll the Dice",
+    "DESCRIPTION": "ResetDebris. NL Retain. Exhaust."
+  },
+  "SoySauce": {
+    "NAME": "Get Soy Sauce",
+    "DESCRIPTION": "Lose !M! HP. NL Gain !B! block."
+  },
+  "Sorry": {
+    "NAME": "Sorry!",
+    "DESCRIPTION": "Gain !B! block. NL If the target's Syndrome reaches LV3, immediately increase it to LV5. Otherwise, apply !M! Syndrome."
+  },
+  "Premeditated": {
+    "NAME": "Premeditated",
+    "DESCRIPTION": "Gain [E] [E] next turn. NL Trap.",
+    "UPGRADE_DESCRIPTION": "Gain [E] [E] [E] next turn. NL Trap."
+  },
+  "Suspicion": {
+    "NAME": "Suspicion",
+    "DESCRIPTION": "After 1 turn, apply !M! SeriousInjury and Weak to all enemies. NL Trap. Exhaust."
+  },
+  "Takoroshi": {
+    "NAME": "Takoroshi",
+    "DESCRIPTION": "Deal !D! damage. NL If the target is not killed, add 2 *Dazed to your discard pile."
+  },
+  "TragedyCycleTrap": {
+    "NAME": "Tragic Cycle",
+    "DESCRIPTION": "Deal !D! damage. NL At the start of the next turn, deal !M! damage to all enemies. NL Trap."
+  },
+  "TrapMaster": {
+    "NAME": "Trap Master",
+    "DESCRIPTION": "Gain !M! block every time you place a Trap."
+  },
+  "Tripwire": {
+    "NAME": "Tripwire",
+    "DESCRIPTION": "When attacked, reduce the remaining turns of all timed Traps by !M!."
+  },
+  "ChainTrap": {
+    "NAME": "Chain Trap",
+    "DESCRIPTION": "Draw 1 card each time a Trap is triggered."
+  },
+  "SandGlass": {
+    "NAME": "Hourglass",
+    "DESCRIPTION": "Retain. NL Reduce the remaining turns of all timed Trap by !M!.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Reduce the remaining turns of all timed Trap by 1."
+  },
+  "Matsuribaya": {
+    "NAME": "Matsuribaya",
+    "DESCRIPTION": "Deal !D! damage. NL Whenever you ResetDebris, reduce the energy cost of this card by 1 for the rest of the combat."
+  },
+  "TwilightOfMiracle": {
+    "NAME": "Twilight",
+    "DESCRIPTION": "At the start of each turn, if you have no FreeAttack, gain 1 FreeAttack."
+  },
+  "Watanagashi": {
+    "NAME": "Watanagashi",
+    "DESCRIPTION": "Deal !D! damage to all enemies. NL Add a *Rupture to your draw pile."
+  },
+  "Haunt": {
+    "NAME": "Haunt",
+    "DESCRIPTION": "Mark an enemy. After 1 turn, deal !M! damage to it. NL Trap."
+  },
+  "PendantTrap": {
+    "NAME": "Pendant Trap",
+    "DESCRIPTION": "At the end of the next turn, deal !M! damage to all enemies. If the battle is not over, deal the same amount of damage to the player. NL Trap.",
+    "UPGRADE_DESCRIPTION": "Retain. NL At the end of the next turn, deal !M! damage to all enemies. If the battle is not over, deal the same amount of damage to the player. NL Trap."
+  },
+  "QueenInfected": {
+    "NAME": "Queen Infected",
+    "DESCRIPTION": "Whenever you draw a status or curse card, apply 1 Syndrome to all enemies."
+  },
+  "Recall": {
+    "NAME": "Recall",
+    "DESCRIPTION": "Deal !D! damage. NL At the start of the turn, return this card from the discard pile to your hand."
+  },
+  "SnapFinger": {
+    "NAME": "Snap Finger",
+    "DESCRIPTION": "Immediately trigger all your timed Trap. NL Add a *Insight to your draw pile.",
+    "UPGRADE_DESCRIPTION": "Immediately trigger all your timed Trap. NL Add a *Insight+ to your draw pile."
+  },
+  "Spike": {
+    "NAME": "Spike",
+    "DESCRIPTION": "Mark an enemy. After 1 turn, deal !M! damage to it and add a copy of this card to your hand. NL Trap."
+  },
+  "Strike_Rika": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "SuddenAttack": {
+    "NAME": "Sudden Attack",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! SeriousInjury."
+  },
+  "TimeFreeze": {
+    "NAME": "Time Freeze",
+    "DESCRIPTION": "ResetDebris. NL Next turn, draw an additional !M! cards, gain additional [E][E]. NL Exhaust."
+  },
+  "TwinFlower": {
+    "NAME": "Twin Flower",
+    "DESCRIPTION": "Draw cards or gain energy until your hand size matches your energy count. NL Exhaust. Ethereal.",
+    "UPGRADE_DESCRIPTION": "Draw cards or gain energy until your hand size matches your energy count. NL Exhaust."
+  },
+  "TwinTrick": {
+    "NAME": "Twin Trick",
+    "DESCRIPTION": "This turn, the next !M! Trap cards you play will be played twice."
+  },
+  "WaterGun": {
+    "NAME": "Water Gun",
+    "DESCRIPTION": "Deal !D! damage. NL Apple !M! Vulnerable."
+  }
+}

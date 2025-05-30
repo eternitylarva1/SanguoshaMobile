@@ -1,0 +1,20 @@
+{
+  "SeriousInjuryPotion": {
+    "NAME": "重伤药水",
+    "DESCRIPTIONS": [
+      "给予 #b", " 层 #y重伤 。"
+    ]
+  },
+  "HanyuuPotion": {
+    "NAME": "瓶中羽入",
+    "DESCRIPTIONS": [
+      "立即重置碎片。"
+    ]
+  },
+  "H173Potion": {
+    "NAME": "H173-02",
+    "DESCRIPTIONS": [
+      "给予 #b", "层 #y症候群 。"
+    ]
+  }
+}
