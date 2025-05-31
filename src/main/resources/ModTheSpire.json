@@ -1,11 +1,11 @@
 {
-  "modId": "AndroidTestMod",
-  "modName": "Android Test Mod",
-  "modVersion": "1.1",
+  "modId": "SgsMod",
+  "modName": "三国杀 Mod",
+  "modVersion": "1.0",
   "descriptions": {
-    "zhs": ["安卓爬塔人物测试mod"],
+    "zhs": ["移植电脑版同名mod"],
     "eng": ["STS android test mod."]
   },
-  "authorList": ["Temple9"],
+  "authorList": ["Dieyou","minahuatang"],
   "dependencies": []
 }
