@@ -14,7 +14,6 @@ public class SkinSelectPatch {
         return (CardCrawlGame.chosenCharacter == sgsMod.enums.CardColorEnum.SGS &&(CardCrawlGame.mainMenuScreen != null
                 && CardCrawlGame.mainMenuScreen.charSelectScreen != null
                 && CardCrawlGame.mainMenuScreen.screen == MainMenuScreen.CurScreen.CHAR_SELECT
-
                 && !AbstractDungeon.isPlayerInDungeon()
                 && (Boolean) ReflectionHacks.getPrivate(CardCrawlGame.mainMenuScreen.charSelectScreen, CharacterSelectScreen.class, "anySelected")) );
     }
